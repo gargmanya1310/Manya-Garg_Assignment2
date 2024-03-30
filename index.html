@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel='stylesheet' href='style.css'/>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="about-section">About</a>
+            <a href="portfolio-section">Portfolio</a>
+            <a href="contact-section">Contact</a>
+        </nav>
+        <div class="greetings">
+            <h1>Hello!</h1>
+            <h1>Welcome to my portfolio</h1>
+        </div>
+    </header>
+    <section class="main-content">
+        <div class="intro-section">
+            <p>I'm Manya Garg, a BTech IT 3rd year student at Banasthali Vidyapith.
+            </p>
+            <p>To know more about me, my projects and my achievements, explore my portfolio.</p>
+        </div>
+        <div class="about-section">
+            <h2>About Me</h2>
+            <div class="education-sub">
+                <p class="sub-heading">My Educational Details</p>
+                <ul>
+                    <li>
+                        <p>BTech(Information Technology)</p>
+                        <p>Banasthali Vidyapith</p>
+                        <p>Newai, Rajasthan, India</p>
+                        <p>07/2021 - 05/2025</p>
+                        <p>8.72 CGPA</p>
+                    </li>
+                    <li>
+                        <p>12th CBSE</p>
+                        <p>CV International School</p>
+                        <p>Agra, Uttar Pradesh, India</p>
+                        <p>04/2019 - 07/2021</p>
+                        <p>PCM</p>
+                    </li>
+                    <li>
+                        <p>10th ICSE</p>
+                        <p>ST. Pauls Church College</p>
+                        <p>Agra, Uttar Pradesh, India</p>
+                        <p>04/2018 - 04/2019</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="columns">
+                <div class="skills-sub">
+                    <p class="sub-heading-sub">Skills</p>
+                    <div class="border-man">
+                        <ul>
+                            <li>C</li>
+                            <li>Data structures</li>
+                            <li>C++</li>
+                            <li>HTML/CSS</li>
+                            <li>SQL</li>
+                            <li>Git</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="interests-sub">
+                    <p class="sub-heading-sub">Interests</p>
+                    <div class="border-man">
+                        <ul>
+                            <li>Singing</li>
+                            <li>Photography</li>
+                            <li>Reading</li>
+                            <li>Baking</li>
+                            <li>Poetry writing</li>
+                            <li>Orating</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="achievements-sub">
+                    <p class="sub-heading-sub">Achievements</p>
+                    <div class="border-man">
+                        <ul>
+                            <li>- Secured 10th rank in CodeRush Coding Challenge by Algo University</li>
+                            <li>- Indian Delegate at the World Youth Festival 2024 in Russia (03/2024)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-section">
+            <h2>Portfolio</h2>
+            <p class="texto">These are some of my exercises and assignments from IT302 Lab-</p>
+            <ul>
+                <li>
+                    <h4>Online food ordering website - <a href="https://github.com/gargmanya1310/Online_Food_Ordering" target="_blank">Github</a></h4>
+                    <p>This is a food ordering website built using HTML and CSS </p>
+                    <img class="OF" src="Screenshot (133).png" width="900px">
+                </li>
+                <li>
+                    <h4>IT Lab exercises - <a href="https://github.com/gargmanya1310/IT302LAB" target="_blank">Github</a></h4>
+                    <p>This is a collection of various types of websites made in IT302 lab</p>
+                    <img class="OF" src="Screenshot (134).png" width="900px">
+                </li>
+            </ul>
+        </div>
+        <div class="contact-section">
+            <h2>Contact</h2>
+            <form class="queries">
+                <div class="form-input">
+                    <label for="first-name">Name: <strong><span aria-label="Required">*</span></strong></label>
+                    <input type="text" id="first-name" name="first-name" placeholder="" required>
+                    <span></span>
+                </div>
+                <div class="form-input">
+                    <label for="email">Email: <strong><span aria-label="Required">*</span></strong></label>
+                    <input type="email" id="email" name="email" 
+                    pattern="^\w+([\.])?\w+@[a-z]+\.[a-z]{2,3}(\.[a-z]{2,3})?$" placeholder="" required>
+                    <span></span>
+                </div>
+                <div class="form-input">
+                    <label for="w3review">Queries: </label>
+                    <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+                    <span></span>
+                </div>
+                <div class="submit-button">
+                    <button type="submit"><span class="front">Submit</span></button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src='script.js'></script>
+</body>
+</html>

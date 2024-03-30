@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #5995DA;
+    height: 180px;
+    color: white;
+    box-shadow: 0px 3px 5px rgb(179, 174, 174);
+}
+
+header div {
+    /* border: 1px solid red; */
+    margin: 0px auto auto 200px;
+}
+
+.navbar {
+    /* border: 1px solid red; */
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-self: flex-end;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.navbar a {
+    font-size: 18px;
+    padding: 8px 15px;
+    text-decoration: none;
+    color: white;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    margin-right: 10px; 
+    background-color: black;
+}
+
+.navbar a:hover {
+    color: blueviolet;
+    background-color: white;
+}
+
+/* .main-content {
+    center all sections using margin auto
+} */
+
+.intro-section {
+    margin: 30px auto;
+    font-size: 22px;
+    width: fit-content;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.about-section {
+    /* width: fit-content; */
+    /* margin: 0 auto; */
+}
+
+.about-section h2 {
+    width: fit-content;
+    margin: auto;
+    font-size: 30px;
+}
+
+.about-section .sub-heading {
+    width: fit-content;
+    margin: 20px auto;
+    font-size: 24px;
+    font-weight: bold;
+    /* text-decoration: underline; */
+    /* color: rgb(0, 172, 135); */
+}
+
+.education-sub ul {
+    display: flex;
+    width: fit-content;
+    margin: 50px auto 0;
+    list-style-type: none;
+    /* border: 1px solid red; */
+}
+
+.education-sub ul li {
+    margin-left: 40px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 5px rgb(179, 174, 174);
+    background-color: #87bfff;
+}
+
+.education-sub ul li p:first-of-type {
+    font-size: 18px;
+    font-weight: bold;
+}
+ 
+.columns {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills-sub ul, .interests-sub ul, .achievements-sub ul {
+    margin-top: 20px;
+    font-size: 18px;
+    list-style: none;
+    padding: 20px;
+    border: 3px solid #5995DA;
+    border-radius: 12px;
+    width: 200px;
+    box-shadow: 0px 3px 5px rgb(179, 174, 174);
+}
+
+.achievements-sub ul {
+    width: 400px;
+}
+
+.achievements-sub ul li {
+    margin-bottom: 30px;
+}
+
+.skills-sub ul li, .interests-sub ul li {
+    margin-bottom: 10px;
+}
+
+.sub-heading-sub {
+    font-size: 24px;
+    font-weight: bold;
+    width: fit-content;
+    margin: auto;
+}
+
+.portfolio-section h2{
+    width: fit-content;
+    margin: 20px auto;
+    font-size: 28px;
+}
+
+.portfolio-section .texto {
+    margin: 30px auto;
+    font-size: 22px;
+    width: fit-content;
+    text-align: center;
+}
+
+.portfolio-section ul {
+    margin-left: 50px;
+    list-style-type: decimal;
+    font-size: 18px;
+}
+
+.portfolio-section ul li {
+    margin-top: 50px;
+}
+
+.portfolio-section ul li img{
+    margin-top: 30px;
+}
+
+.contact-section {
+    box-shadow: 0px -3px 5px rgb(179, 174, 174);
+}
+
+.contact-section h2{
+    /* width: fit-content; */
+    margin: 20px 20px;
+    font-size: 28px;
+}
+
+.form-input {
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+.queries {
+    margin-left: 50px;
+}
+
+.form-input input {
+    width: 250px;
+    height: 25px;
+    outline: none;
+    border-radius: 3px;
+}
+
+.form-input input:focus {
+    border: 2px solid rgb(82, 82, 255);
+    border-radius: 3px;
+}
+
+.submit-button {
+    margin-left: 50px;
+}
+
+.submit-button button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    margin-bottom: 50px;
+}
+
+.form-input textarea {
+    border-radius: 5px;
+}
+
+.submit-button button:hover{
+    background-color: rgb(86, 86, 86);
+}
